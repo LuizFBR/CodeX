@@ -1,0 +1,30 @@
+body{
+    background-image: url(timezones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#local_time, #UTC_time{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+#local_date, #UTC_date{
+    font-style: italic;
+    font-size: 28px;
+    color: black;
+}
